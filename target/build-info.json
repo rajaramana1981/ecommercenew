@@ -1,0 +1,129 @@
+{
+  "version" : "1.0.1",
+  "name" : "NIJobs",
+  "number" : "507",
+  "type" : "MAVEN",
+  "buildAgent" : {
+    "name" : "Maven",
+    "version" : "3.6.0"
+  },
+  "agent" : {
+    "name" : "Jenkins",
+    "version" : "2.150.3"
+  },
+  "started" : "2019-03-06T09:30:32.014+0000",
+  "durationMillis" : 3851,
+  "artifactoryPluginVersion" : "3.2.1",
+  "url" : "http://13.234.122.130:8080/job/NIJobs/507/",
+  "vcs" : [ {
+    "revision" : "1de5e43777e70f9f13a397a0a8e2a2e898b3bc0d",
+    "url" : "https://github.com/rajaramana1981/ecommerce"
+  } ],
+  "vcsRevision" : "1de5e43777e70f9f13a397a0a8e2a2e898b3bc0d",
+  "vcsUrl" : "https://github.com/rajaramana1981/ecommerce",
+  "licenseControl" : {
+    "runChecks" : false,
+    "includePublishedArtifacts" : false,
+    "autoDiscover" : false,
+    "licenseViolationsRecipientsList" : "",
+    "scopesList" : ""
+  },
+  "modules" : [ {
+    "properties" : {
+      "jacoco.version" : "0.7.5.201505241946",
+      "maven.compiler.source" : "1.7",
+      "project.build.sourceEncoding" : "UTF-8",
+      "sonar.host.url" : "http://13.233.179.105:9000/example",
+      "maven.compiler.target" : "1.7",
+      "junit.version" : "4.12"
+    },
+    "id" : "example:ecommerce:100",
+    "artifacts" : [ {
+      "type" : "war",
+      "sha1" : "fc360617b4c0d3691496c8db64265feb18dce2b7",
+      "md5" : "f1508670abebf58c399ec1c450da9eea",
+      "name" : "ecommerce-100.war"
+    } ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "4e031bb61df09069aeb2bffb4019e7a5034a4ee0",
+      "md5" : "3c42be5ea7cbf3635716abbb429cb90d",
+      "id" : "junit:junit:4.11",
+      "scopes" : [ "test" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "0ce1edb914c94ebc388f086c6827e8bdeec71ac2",
+      "md5" : "4d5c1693079575b362edf41500630bbd",
+      "id" : "commons-lang:commons-lang:2.6",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "833e944bc5bed15b0ef04efff54d5c9471e78f44",
+      "md5" : "cc43195f76735030db23985c0f557554",
+      "id" : "org.sonarsource.scanner.maven:sonar-maven-plugin:3.2",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "b957089deb654647da320ad7507b0a4b5ce23813",
+      "md5" : "fc6315129d2e2063e2f2725e6337587f",
+      "id" : "org.eclipse.aether:aether-util:0.9.0.M2",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "5871fb60dc68d67da54a663c3fd636a10a532948",
+      "md5" : "195d5db8981fbec5fa18d5df9fad95ed",
+      "id" : "com.google.code.findbugs:jsr305:2.0.3",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "42a25dc3219429f0e5d060061f71acb49bf010a0",
+      "md5" : "6393363b47ddcbba82321110c3e07519",
+      "id" : "org.hamcrest:hamcrest-core:1.3",
+      "scopes" : [ "test" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "5d9ce6add7b714b8095f0e3e396c5e9f8c5dcfef",
+      "md5" : "c9b2c60a0fd118c04595db246f3075a2",
+      "id" : "org.apache.maven.shared:maven-dependency-tree:2.2",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "43fde524e9b94c883727a9fddb8669181b890ea7",
+      "md5" : "0a46e5bc9bc2fbd3b68091066aff2737",
+      "id" : "org.sonatype.plexus:plexus-sec-dispatcher:1.4",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "50ade46f23bb38cd984b4ec560c46223432aac38",
+      "md5" : "7b2d6fcf0d5800d5b1ce09d98d98dcaf",
+      "id" : "org.sonatype.plexus:plexus-cipher:1.4",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "764f26e0ab13a87c48fe55f525dfb6a133b7a92f",
+      "md5" : "2a32677a099da7c5b9b2b39c066f2cc6",
+      "id" : "org.codehaus.plexus:plexus-utils:3.0.22",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "b180711f8d750bc5eec00b9bcbeadfdf7a3006c5",
+      "md5" : "192a30512aeef40fa44432d350f85087",
+      "id" : "org.sonarsource.scanner.api:sonar-scanner-api:2.8",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "c72f2660d0cbed24246ddb55d7fdc4f7374d2078",
+      "md5" : "ef37dcdb84030422db428b63c4354e5b",
+      "id" : "org.codehaus.plexus:plexus-component-annotations:1.5.5",
+      "scopes" : [ "compile" ]
+    } ]
+  } ],
+  "governance" : {
+    "blackDuckProperties" : {
+      "runChecks" : false,
+      "includePublishedArtifacts" : false,
+      "autoCreateMissingComponentRequests" : false,
+      "autoDiscardStaleComponentRequests" : false
+    }
+  }
+}

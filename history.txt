@@ -1,0 +1,1000 @@
+   39  ls
+   40  cp dockerfile ecommerce/
+   41  cp pom.xml  ecommerce/
+   42  cp -R src  ecommerce/
+   43  ls
+   44  cp -R target/ ecommerce/
+   45  ls
+   46  cd ecommerce
+   47  ls
+   48  git add .
+   49  git commit -m "this is example"
+   50  git config --global user.rajaramana1981 "rajaramana1981"
+   51  git config --global user.name "rajaramana1981"
+   52  git config --global user.email rajaramana1981@gmail.com
+   53  git push origin master
+   54  ls
+   55  cd ..
+   56  ls
+   57  cd cijobs
+   58  ls
+   59  cd ..
+   60  rm -rf cijobs
+   61  ls
+   62  cd cijobs
+   63  clear
+   64  sudo service docker start
+   65  docker images
+   66  docker ps -a
+   67  docker start 8b7be5d7e214
+   68  docker ps -a
+   69  ls
+   70  cd example/
+   71  ls
+   72  vi dockerfile 
+   73  cd ecommerce/
+   74  ls
+   75  vi pom.xml 
+   76  src
+   77  cd src
+   78  ls
+   79  cd main
+   80  ls
+   81  cd webapp/
+   82  ls
+   83  vi index.jsp 
+   84  cd ..
+   85  ls
+   86  mvn package 
+   87  ls
+   88  curl -u<USERNAME>:<PASSWORD> -O "http://13.233.179.105:8081/artifactory/demomaven/
+   89  pwd
+   90  /opt
+   91  ;
+   92  curl -u<USERNAME>:<PASSWORD> -O "http://13.233.179.105:8081/artifactor/demomaven/opt/
+   93  curl -u<admin>:<welcome123> -O "http://13.233.179.105:8081/artifactor/demomaven/opt/
+   94  ;
+   95  ls
+   96  vi pom.xml 
+   97  mvn compile
+   98  mvn package -Pcoderelease
+   99  ls
+  100  git push origin master
+  101  ls
+  102  cd ..
+  103  ls
+  104  cd ecommerce/
+  105  ls
+  106  vi pom.xml 
+  107  git add .
+  108  git commit -m "this is sample"
+  109  git push 
+  110  vi pom.xml 
+  111  cd /optr
+  112  cd /opt
+  113  vi example.txt 
+  114  ls
+  115  cd examples
+  116  ls
+  117  cd example/
+  118  ls
+  119  cd ecommerce/
+  120  ls
+  121  vi pom.xml 
+  122  mvn compile
+  123  vi pom.xml 
+  124  mvn compile
+  125  vi pom.xml 
+  126  mvn compile
+  127  mvn compile
+  128  vi pom.xml 
+  129  mvn compile
+  130  mvn package -Pcoderelease
+  131  vi pom.xml 
+  132  mvn compile
+  133  mvn package -Pcoderelease
+  134  vi pom.xml 
+  135  mvn compile
+  136  vi pom.xml 
+  137  mvn compile
+  138  vi pom.xml 
+  139  mvn compile
+  140  vi pom.xml 
+  141  mvn compile
+  142  vi pom.xml 
+  143  mvn compile
+  144  vi pom.xml 
+  145  mvn compile
+  146  vi pom.xml 
+  147  mvn compile
+  148  mvn package -Pcodecoverage
+  149  vi pom.xml 
+  150  mvn package -Pcodecoverage
+  151  vi pom.xml 
+  152  mvn compile
+  153  mvn package -Pcodecoverage
+  154  vi pom.xml 
+  155  mvn compile
+  156  vi pom.xml 
+  157  mvn compile
+  158  mvn package -Pcodecoverage
+  159  vi pom.xml 
+  160  mvn compile
+  161  vi pom.xml 
+  162  rm pom.xml 
+  163  ls
+  164  vi pom.xml
+  165  mvn compile
+  166  vi pom.xml
+  167  mvn compile
+  168  vi pom.xml
+  169  mvn compile
+  170  vi pom.xml
+  171  mvn compile
+  172  vi pom.xml
+  173  mvn compile
+  174  vi pom.xml
+  175  mvn compile
+  176  cd target/
+  177  ls
+  178  cd ..
+  179  ls
+  180  git push 
+  181  mvn package -Pcodecoverage
+  182  ls
+  183  mvn package -Pdockerimage
+  184  docker images
+  185  docker ps -a
+  186  vi pom.xml 
+  187  cat pom.xml 
+  188  vi pom.xml 
+  189  mvn compile
+  190  vi pom.xml 
+  191  mvn compile
+  192  mvn package -Psonar
+  193  cat pom.xml 
+  194  ls
+  195  cd /opt
+  196  ls
+  197  cd example
+  198  cd examples
+  199  ls
+  200  git clone https://github.com/rajaramana1981/ecommerce.git
+  201  ls
+  202  cd ecommerce/
+  203  ls
+  204  mvn compile
+  205  mvn package -Pdockerimage
+  206  docker images 
+  207  mvn package -Pcodecoverage
+  208  ls
+  209  cd target/
+  210  ls
+  211  cd ..
+  212  ls
+  213  dockerimages 
+  214  ls
+  215  cd ..
+  216  ls
+  217  git add ecommerce .
+  218  git add ecommerce 
+  219  cd ecommerce/
+  220  git add .
+  221  git commit -n "this is new push"
+  222  git commit -m "this is new push"
+  223  cd src
+  224  ls
+  225  ld
+  226  cd main
+  227  ls
+  228  cd webapp/
+  229  ls
+  230  vi index.jsp 
+  231  cd ..
+  232  ls
+  233  git push origin master 
+  234  cd ..
+  235  ls
+  236  cd ..
+  237  ls
+  238  clear
+  239  apt install python
+  240  yum install python
+  241  curl -O https://bootstrap.pypa.io/get-pip.py
+  242   python get-pip.py --user
+  243  ls ~/.local/bin 
+  244  export PATH=$PATH:/root/.local/bin
+  245  pip install awscli --upgrade --user
+  246  aws --version
+  247  yum install awscli
+  248  aws configure
+  249   aws ecr get-login --no-include-email --region ap-south-1
+  250  docker images
+  251  docker tag dockerfile:latest 872855427276.dkr.ecr.ap-south-1.amazonaws.com/exampletest
+  252  history 
+  253  docker push  872855427276.dkr.ecr.ap-south-1.amazonaws.com/exampletest
+  254  aws version
+  255  clear
+  256  docker push  872855427276.dkr.ecr.ap-south-1.amazonaws.com/exampletest
+  257  ls
+  258  aws -version
+  259  history
+  260  aws --version
+  261  history >history.txt
+  262  vi history.txt 
+  263  aws config
+  264  aws configure
+  265  aws -version
+  266  aws --version
+  267  docker push  872855427276.dkr.ecr.ap-south-1.amazonaws.com/exampletest
+  268  aws configure
+  269  docker tag dockerfile:latest 872855427276.dkr.ecr.ap-south-1.amazonaws.com/exampletest
+  270  docker push  872855427276.dkr.ecr.ap-south-1.amazonaws.com/exampletest
+  271  docker push     AKIAJ2CJPMWWNZM75FBQ  872855427276.dkr.ecr.ap-south-1.amazonaws.com/exampletest
+  272  docker tag dockerfile:latest  AKIAJ2CJPMWWNZM75FBQ.872855427276.dkr.ecr.ap-south-1.amazonaws.com/exampletest
+  273  docker push AKIAJ2CJPMWWNZM75FBQ.872855427276.dkr.ecr.ap-south-1.amazonaws.com/exampletest
+  274  docker push 872855427276.dkr.ecr.ap-south-1.amazonaws.com/exampletest
+  275  ls
+  276  cd  /opt
+  277  ls
+  278  cd examples
+  279  ls
+  280  cd ecommerce/
+  281  ls
+  282  vi pom.xml 
+  283  sudo service docker start
+  284  mvn package -Pdockerimage
+  285  docker images 
+  286  docker ps 
+  287  docker system prune -a
+  288  docker images
+  289  docker ps -a
+  290  docker stop 8b7be5d7e214
+  291  docker system prune -a
+  292  clear
+  293  docker images 
+  294  mvn package -Pdockerimage
+  295  cd ..
+  296  ls
+  297  cd example
+  298  cd examples
+  299  ls
+  300  cd cijobs
+  301  history 
+  302     95  mvn package -Pdockerimage
+  303     96  docker images
+  304     97  docker ps -a
+  305     98  docker run -P -d jboss/wildfly /opt/jboss/wildfly/bin/standalone.sh -b 0.0.0.0 -bmanagement 0.0.0.0
+  306     99  docker images
+  307    100  vi dockerfile
+  308    101  docker ps -a
+  309    102  docker stop b8be86138217
+  310    103  dokcer stop f3e8b09deb5f
+  311    104  docker stop f3e8b09deb5f
+  312    105  docker syetem prune -a
+  313    106  docker syetem prune - a
+  314    107  docker systemprune -a
+  315    108  docker ps -a
+  316    109  clear
+  317    110  docker systemprune -a
+  318    111  docker systemprune -d
+  319    112  histoyu
+  320    113  history
+  321    114   docker run --name cond1 -d -v /var/log/prodlogs1:/opt/jboss/wildfly/standalone/log -p 8080:8080 -p 9990:9990 dockerfile
+  322    115   docker run --name cond1100 -d -v /var/log/prodlogs1:/opt/jboss/wildfly/standalone/log -p 8080:8080 -p 9990:9990 dockerfile
+  323    116  ls
+  324    117  docker images
+  325    118  dicker ps -a
+  326    119  docker ps -a
+  327    120  docker exex -it 8b7be5d7e214
+  328    121  docker ps -a
+  329    122  docker start 8b7be5d7e214
+  330    123  docker exex -it 8b7be5d7e214
+  331    124  docker exec -it 8b7be5d7e214
+  332    125  docker exec -it 8b7be5d7e214 bash
+  333    126  ls
+  334    127  docker run -p 8080:8080 -p 9990:9990 -it example-1 /opt/jboss/wildfly/bin/standalone.sh -bmanagement 0.0.0.0
+  335    128  mkdir cijobs
+  336    129  ls
+  337    130  cd /opt
+  338    131  ls
+  339    132  cd examples/
+  340    133  ls
+  341    134  mkdir cijobs
+  342    135  ls
+  343    136  cd cijobs
+  344    137  wget http://13.234.122.130:8080/jnlpJars/agent.jar
+  345    138  chmod 777 agent.jar
+  346    139  java -jar agent.jar -jnlpUrl http://13.233.112.243:8080/computer/cijobs/slave-agent.jnlp -secret fff413f0dd6364c679470e340073f7d878c829fcd4e35963f792e5c45f199762 -workDir "/opt/examples/cijobs "
+  347    140  ls
+  348    141  rm -rf agent.jar
+  349    142  wget http://13.234.122.130:8080/jnlpJars/agent.jar
+  350    143  chmod 777 agent.jar
+  351    144  java -jar agent.jar -jnlpUrl http://13.233.112.243:8080/computer/cijobs/slave-agent.jnlp -secret fff413f0dd6364c679470e340073f7d878c829fcd4e35963f792e5c45f199762 -workDir "/opt/examples/cijobs "
+  352    145  java -jar agent.jar -jnlpUrl http://13.233.112.243:8080/computer/cijobs/slave-agent.jnlp -secret fff413f0dd6364c679470e340073f7d878c829fcd4e35963f792e5c45f199762 -workDir "/opt/examples/cijobs"
+  353    146  clear
+  354    147  cd ..
+  355    148  ls
+  356    149  cd cijobs\ /
+  357    150  ls
+  358    151  wget http://13.234.122.130:8080/jnlpJars/agent.jar
+  359    152  chmo 777 agent.jar
+  360    153  chmod 777 agent.jar
+  361    154  ls
+  362    155  java -jar agent.jar -jnlpUrl http://13.233.112.243:8080/computer/cijobs/slave-agent.jnlp -secret fff413f0dd6364c679470e340073f7d878c829fcd4e35963f792e5c45f199762 -workDir "/opt/examples/cijobs "
+  363    156  java -jar agent.jar -jnlpUrl http://13.234.122.130:8080/computer/cijobs/slave-agent.jnlp -secret fff413f0dd6364c679470e340073f7d878c829fcd4e35963f792e5c45f199762 -workDir "/opt/examples/cijobs"
+  364    157  clear
+  365    158  ls
+  366    159  cd /opt
+  367    160  ls
+  368    161  cd examples/
+  369    162  ls
+  370    163  cd example/
+  371    164  ls
+  372    165  cd target/
+  373    166  ls
+  374    167  cd ..
+  375    168  vi pom.xml
+  376    169  mvn compile
+  377    170  vi pom.xml
+  378    171  mvn compile
+  379    172  mvn package  -Pcoderelease
+  380    173  vi pom.xml
+  381    174  mvn package  -Pcoderelease
+  382    175  ls
+  383    176  cd target/
+  384    177  ls
+  385    178  cd ..
+  386    179  vi pom.xml
+  387    180  mvn package
+  388    181  mvn compile
+  389    182  vi pom.xml
+  390    183  mvn compile
+  391    184  vi pom.xml
+  392    185  mvn compile
+  393    186  mvn pacakge -Pcodecoverage
+  394    187  mvn package -Pcodecoverage
+  395    188  cd target
+  396    189  ls
+  397    190  cd ..
+  398    191  ls
+  399    192  vi pom.xml
+  400    193  ls
+  401    194  git clone https://github.com/rajaramana1981/ecommerce.git
+  402    195  ls
+  403    196  cd ecommerce
+  404    197  git branch payment
+  405    198  ls
+  406    199  git status
+  407    200  cd ..
+  408    201  ;s
+  409    202  ls
+  410    203  cp dockerfile ecommerce/
+  411    204  cp pom.xml  ecommerce/
+  412    205  cp -R src  ecommerce/
+  413    206  ls
+  414    207  cp -R target/ ecommerce/
+  415    208  ls
+  416    209  cd ecommerce
+  417    210  ls
+  418    211  git add .
+  419    212  git commit -m "this is example"
+  420    213  git config --global user.rajaramana1981 "rajaramana1981"
+  421    214  git config --global user.name "rajaramana1981"
+  422    215  git config --global user.email rajaramana1981@gmail.com
+  423    216  git push origin master
+  424    217  ls
+  425    218  cd ..
+  426    219  ls
+  427    220  cd cijobs
+  428    221  ls
+  429    222  cd ..
+  430    223  rm -rf cijobs
+  431    224  ls
+  432    225  cd cijobs
+  433    226  clear
+  434    227  sudo service docker start
+  435    228  docker images
+  436    229  docker ps -a
+  437    230  docker start 8b7be5d7e214
+  438    231  docker ps -a
+  439    232  ls
+  440    233  cd example/
+  441    234  ls
+  442    235  vi dockerfile
+  443    236  cd ecommerce/
+  444    237  ls
+  445    238  vi pom.xml
+  446    239  src
+  447    240  cd src
+  448    241  ls
+  449    242  cd main
+  450    243  ls
+  451    244  cd webapp/
+  452    245  ls
+  453    246  vi index.jsp
+  454    247  cd ..
+  455    248  ls
+  456    249  mvn package
+  457    250  ls
+  458    251  curl -u<USERNAME>:<PASSWORD> -O "http://13.233.179.105:8081/artifactory/demomaven/
+  459    252  pwd
+  460    253  /opt
+  461    254  ;
+  462    255  curl -u<USERNAME>:<PASSWORD> -O "http://13.233.179.105:8081/artifactor/demomaven/opt/
+  463    256  curl -u<admin>:<welcome123> -O "http://13.233.179.105:8081/artifactor/demomaven/opt/
+  464    257  ;
+  465    258  ls
+  466    259  vi pom.xml
+  467    260  mvn compile
+  468    261  mvn package -Pcoderelease
+  469    262  ls
+  470    263  git push origin master
+  471    264  ls
+  472    265  cd ..
+  473  clerar
+  474  clear
+  475  java -jar agent.jar -jnlpUrl http://13.234.122.130:8080/computer/cijobs/slave-agent.jnlp -secret fff413f0dd6364c679470e340073f7d878c829fcd4e35963f792e5c45f199762 -workDir "/opt/examples/cijobs"
+  476  ls
+  477  cd ..
+  478  ls
+  479  cd examples
+  480  ls
+  481  ls -lh
+  482  cd example/
+  483  ls
+  484  cd ..
+  485  ls
+  486  cd cijobs
+  487  ls
+  488  cd workspace/
+  489  ls
+  490  cd cijobs
+  491  cd CI jobs
+  492  cd CIjobs
+  493  cd ..
+  494  ls
+  495  cd cijobs
+  496  ls
+  497  wget http://13.234.122.130:8080/jnlpJars/agent.jar
+  498  chmod 777 agent.jar 
+  499  java -jar agent.jar -jnlpUrl http://13.234.122.130:8080/computer/cijobs/slave-agent.jnlp -secret fff413f0dd6364c679470e340073f7d878c829fcd4e35963f792e5c45f199762 -workDir "/opt/examples/cijobs"
+  500  ls
+  501  cd /opt
+  502  ls
+  503  cd examples
+  504  ls
+  505  cd ecommerce/
+  506  ls
+  507  cd target/
+  508  ls
+  509  cd ..
+  510  ls
+  511  vi pom.xml 
+  512  docker images
+  513  ls
+  514  aws --version
+  515  aws -version
+  516  sudo service docker start
+  517  apt install python
+  518  yum install python
+  519  pip install awscli --upgrade --user
+  520  cd ..
+  521  clear
+  522  history
+  523  yum install python
+  524   curl -O https://bootstrap.pypa.io/get-pip.py
+  525  pythonpython get-pip.py --user
+  526  python get-pip.py --user
+  527   ls ~/.local/bin
+  528  export PATH=$PATH:/root/.local/bin
+  529  vi /etc/profile.d/python.sh
+  530  chmod +x /etc/profile.d/python.sh 
+  531  source /etc/profile.d/python.sh 
+  532  ls
+  533   pip install awscli --upgrade --user
+  534  yum install awscli
+  535  aws --version
+  536  aws configure
+  537     aws ecr get-login --no-include-email --region ap-south-1
+  538  docker login  -u AWS -p eyJwYXlsb2FkIjoia1B1cmhHQ1R0bGoybGp6YkM3UXNmZWxpSGc1ZW9Fb                                                                                       CtnWkJ4dmZzVkZmTi9WZm1sWnB0WWZaczVMWVcwSE5IQ0VpUm5aWng2R0pQVkxTbTVybWd6c3ZnT3FIV                                                                                       GUxZEIzRVRQdU5RbHM4MXRIYXIrSDBpSVNyU3RDNnk1Q1hWdzc1K2F0UVIwek5wVldLUzJ1QUl4Y2wxN                                                                                       E1oV05qN1o1SkRZSkFnS3Z2ZW5oT2pGbFMzTmlYUXVuTkZuMEVvNE1oZGoxM2NGTjMwYURqeno5VnhGU                                                                                       lhEeXBtcW1LZWRpSkxlTm1JZTZxZVorZkF1cmo0WDQzUGdHbmdHdzdXZnFIcUMxTXZjeGZGbklzYW04S                                                                                       GFqVEhWczZKYlk1ZXZ5SUdwWUorVCs0MlRBdjJkMGcwejNtY2QyNm5vUlp0OXdITnZtUG9idytkL3hne                                                                                       XZnMTFOWElmcUluOGw2NVNSNGhWb1RwcFMvMXV3clRxVEt1UmRZZGpvUlJ4QkViNnZjZWloOElWSlRBY                                                                                       y9hejE3bkUweUlqM1g3NnVwREgxOWhQYVZZQk5SbVZ1VTVETm1SbElCMjFXWDFYbTROdnRMMW9rZjBMV                                                                                       1BQV0VOdFA4ZDlPNG1FUFZlZEVBcG9lb3Q0cTRtYThJSWtOM1dJalEvekNxRGU3L2Rra29RbzRQWVE3Z                                                                                       jkxeTBmV3lxMk1RTUNIUDVuY2x6di9hdVNBTWZxMkY1VW43enBrSnM3K0Z6L29EVVdTQUxBWlVmV0xxW                                                                                       DFnbVBTUExxQXd5dEkyeU5aeWJqdVpVNUJORVhUSmYrMEJjTC9Ja1ZPd2lJT1Y1b2lOZ0VFLzRrZDdUR                                                                                       nNYMGZwOXRLc2R0c1FzaE1Kc1BQS05ueEsyVllTMm1FeHpWZ0xob01OUlBLZUM1NEUvMWhRRzM4OE4rY                                                                                       noyT2tQSjZuNWlsUVlFTi9PMGtRcCt6YTg1a2ZCbHBhd3JLN21lR2dCblJhRGN0RXlOdXdveXZXVG9NT                                                                                       Fk0dnZtTDhMUWtrc3dwQ0R3SnJSdEk0eXFudUNpZHN5NlkxM1M5QW5rRnhvemtpNkk1ZFRDR2plTlFWb                                                                                       TlXRkViR2JUUDZxNWRFbUtUMjNmMG1HZ0FEOXM3UE5BeHdLRzRuUjFCTnBYdUw1dXpYcUlQOExxWnZGb                                                                                       1FveHRySGZEZWlMTElmbWo4Wm0rNGQrSkdPcHVyN3lUU3pFbzJPRGl1M0wyNm1uaFBvcGZYaldWMHVRS                                                                                       2FvYXJ5L2M2Y2NaOFF5VkczL095NDUrT0VxS0pldk53NUlQSHBzUnZoekhXblNUbHVzcEs2ekh1TVR1Q                                                                                       zRXSzNqU2ZtWmlqa21JbFc3UTNteko0QldDNzdQdkdmdDBMQzdCY3VOUTgxTXVpWGFUdFByNWNGUHltO                                                                                       UJQaXJvN2RCQzVwQmpxWENCaFlRWGRSa2QiLCJkYXRha2V5IjoiQVFJQkFIaUhXYVlUblJVV0NibnorN                                                                                       0x2TUcrQVB2VEh6SGxCVVE5RnFFbVYyNkJkd3dHYlJrV2s2Z1JudEJ4RXV1V29BbVBwQUFBQWZqQjhCZ                                                                                       2txaGtpRzl3MEJCd2FnYnpCdEFnRUFNR2dHQ1NxR1NJYjNEUUVIQVRBZUJnbGdoa2dCWlFNRUFTNHdFU                                                                                       VFNRkZOUFprTVZrcTBuTG5GREFnRVFnRHZOS3lPM04zME9LaTM4K1gzS1JHcmcvWGdRWm5sNXJwc3l1N                                                                                       ThXQ2JkMW5oTU5RWUF0b3pCaVh0ZXYwYU1OZ2h4ZG5ZbFRreFErRVl3Y1N3PT0iLCJ2ZXJzaW9uIjoiM                                                                                       iIsInR5cGUiOiJEQVRBX0tFWSIsImV4cGlyYXRpb24iOjE1NTE2NjE0NzB9 https://872855427276                                                                                       .dkr.ecr.ap-south-1.amazonaws.com
+  539  docker loging <registry>
+  540  docker login <registry>
+  541  docker login  https://872855427276.dkr.ecr.ap-south-1.amazonaws.com
+  542  docker login -u AWS -p eyJwYXlsb2FkIjoia1B1cmhHQ1R0bGoybGp6YkM3UXNmZWxpSGc1ZW9FbCtnWkJ4dmZzVkZmTi9WZm1sWnB0WWZaczVMWVcwSE5IQ0VpUm5aWng2R0pQVkxTbTVybWd6c3ZnT3FIVGUxZEIzRVRQdU5RbHM4MXRIYXIrSDBpSVNyU3RDNnk1Q1hWdzc1K2F0UVIwek5wVldLUzJ1QUl4Y2wxN                                                                                       E1oV05qN1o1SkRZSkFnS3Z2ZW5oT2pGbFMzTmlYUXVuTkZuMEVvNE1oZGoxM2NGTjMwYURqeno5VnhGU                                                                                       lhEeXBtcW1LZWRpSkxlTm1JZTZxZVorZkF1cmo0WDQzUGdHbmdHdzdXZnFIcUMxTXZjeGZGbklzYW04S                                                                                       GFqVEhWczZKYlk1ZXZ5SUdwWUorVCs0MlRBdjJkMGcwejNtY2QyNm5vUlp0OXdITnZtUG9idytkL3hne                                                                                       XZnMTFOWElmcUluOGw2NVNSNGhWb1RwcFMvMXV3clRxVEt1UmRZZGpvUlJ4QkViNnZjZWloOElWSlRBY                                                                                       y9hejE3bkUweUlqM1g3NnVwREgxOWhQYVZZQk5SbVZ1VTVETm1SbElCMjFXWDFYbTROdnRMMW9rZjBMV                                                                                       1BQV0VOdFA4ZDlPNG1FUFZlZEVBcG9lb3Q0cTRtYThJSWtOM1dJalEvekNxRGU3L2Rra29RbzRQWVE3Z                                                                                       jkxeTBmV3lxMk1RTUNIUDVuY2x6di9hdVNBTWZxMkY1VW43enBrSnM3K0Z6L29EVVdTQUxBWlVmV0xxW                                                                                       DFnbVBTUExxQXd5dEkyeU5aeWJqdVpVNUJORVhUSmYrMEJjTC9Ja1ZPd2lJT1Y1b2lOZ0VFLzRrZDdUR                                                                                       nNYMGZwOXRLc2R0c1FzaE1Kc1BQS05ueEsyVllTMm1FeHpWZ0xob01OUlBLZUM1NEUvMWhRRzM4OE4rY                                                                                       noyT2tQSjZuNWlsUVlFTi9PMGtRcCt6YTg1a2ZCbHBhd3JLN21lR2dCblJhRGN0RXlOdXdveXZXVG9NT                                                                                       Fk0dnZtTDhMUWtrc3dwQ0R3SnJSdEk0eXFudUNpZHN5NlkxM1M5QW5rRnhvemtpNkk1ZFRDR2plTlFWb                                                                                       TlXRkViR2JUUDZxNWRFbUtUMjNmMG1HZ0FEOXM3UE5BeHdLRzRuUjFCTnBYdUw1dXpYcUlQOExxWnZGb                                                                                       1FveHRySGZEZWlMTElmbWo4Wm0rNGQrSkdPcHVyN3lUU3pFbzJPRGl1M0wyNm1uaFBvcGZYaldWMHVRS                                                                                       2FvYXJ5L2M2Y2NaOFF5VkczL095NDUrT0VxS0pldk53NUlQSHBzUnZoekhXblNUbHVzcEs2ekh1TVR1Q                                                                                       zRXSzNqU2ZtWmlqa21JbFc3UTNteko0QldDNzdQdkdmdDBMQzdCY3VOUTgxTXVpWGFUdFByNWNGUHltO                                                                                       UJQaXJvN2RCQzVwQmpxWENCaFlRWGRSa2QiLCJkYXRha2V5IjoiQVFJQkFIaUhXYVlUblJVV0NibnorN                                                                                       0x2TUcrQVB2VEh6SGxCVVE5RnFFbVYyNkJkd3dHYlJrV2s2Z1JudEJ4RXV1V29BbVBwQUFBQWZqQjhCZ                                                                                       2txaGtpRzl3MEJCd2FnYnpCdEFnRUFNR2dHQ1NxR1NJYjNEUUVIQVRBZUJnbGdoa2dCWlFNRUFTNHdFU                                                                                       VFNRkZOUFprTVZrcTBuTG5GREFnRVFnRHZOS3lPM04zME9LaTM4K1gzS1JHcmcvWGdRWm5sNXJwc3l1N                                                                                       ThXQ2JkMW5oTU5RWUF0b3pCaVh0ZXYwYU1OZ2h4ZG5ZbFRreFErRVl3Y1N3PT0iLCJ2ZXJzaW9uIjoiMiIsInR5cGUiOiJEQVRBX0tFWSIsImV4cGlyYXRpb24iOjE1NTE2NjE0NzB9 https://872855427276.dkr.ecr.ap-south-1.amazonaws.com
+  543  docker login -u AWS -p eyJwYXlsb2FkIjoia1B1cmhHQ1R0bGoybGp6YkM3UXNmZWxpSGc1ZW9Fb                                                                                       CtnWkJ4dmZzVkZmTi9WZm1sWnB0WWZaczVMWVcwSE5IQ0VpUm5aWng2R0pQVkxTbTVybWd6c3ZnT3FIV                                                                                       GUxZEIzRVRQdU5RbHM4MXRIYXIrSDBpSVNyU3RDNnk1Q1hWdzc1K2F0UVIwek5wVldLUzJ1QUl4Y2wxN                                                                                       E1oV05qN1o1SkRZSkFnS3Z2ZW5oT2pGbFMzTmlYUXVuTkZuMEVvNE1oZGoxM2NGTjMwYURqeno5VnhGU                                                                                       lhEeXBtcW1LZWRpSkxlTm1JZTZxZVorZkF1cmo0WDQzUGdHbmdHdzdXZnFIcUMxTXZjeGZGbklzYW04S                                                                                       GFqVEhWczZKYlk1ZXZ5SUdwWUorVCs0MlRBdjJkMGcwejNtY2QyNm5vUlp0OXdITnZtUG9idytkL3hne                                                                                       XZnMTFOWElmcUluOGw2NVNSNGhWb1RwcFMvMXV3clRxVEt1UmRZZGpvUlJ4QkViNnZjZWloOElWSlRBY                                                                                       y9hejE3bkUweUlqM1g3NnVwREgxOWhQYVZZQk5SbVZ1VTVETm1SbElCMjFXWDFYbTROdnRMMW9rZjBMV                                                                                       1BQV0VOdFA4ZDlPNG1FUFZlZEVBcG9lb3Q0cTRtYThJSWtOM1dJalEvekNxRGU3L2Rra29RbzRQWVE3Z                                                                                       jkxeTBmV3lxMk1RTUNIUDVuY2x6di9hdVNBTWZxMkY1VW43enBrSnM3K0Z6L29EVVdTQUxBWlVmV0xxW                                                                                       DFnbVBTUExxQXd5dEkyeU5aeWJqdVpVNUJORVhUSmYrMEJjTC9Ja1ZPd2lJT1Y1b2lOZ0VFLzRrZDdUR                                                                                       nNYMGZwOXRLc2R0c1FzaE1Kc1BQS05ueEsyVllTMm1FeHpWZ0xob01OUlBLZUM1NEUvMWhRRzM4OE4rY                                                                                       noyT2tQSjZuNWlsUVlFTi9PMGtRcCt6YTg1a2ZCbHBhd3JLN21lR2dCblJhRGN0RXlOdXdveXZXVG9NT                                                                                       Fk0dnZtTDhMUWtrc3dwQ0R3SnJSdEk0eXFudUNpZHN5NlkxM1M5QW5rRnhvemtpNkk1ZFRDR2plTlFWb                                                                                       TlXRkViR2JUUDZxNWRFbUtUMjNmMG1HZ0FEOXM3UE5BeHdLRzRuUjFCTnBYdUw1dXpYcUlQOExxWnZGb                                                                                       1FveHRySGZEZWlMTElmbWo4Wm0rNGQrSkdPcHVyN3lUU3pFbzJPRGl1M0wyNm1uaFBvcGZYaldWMHVRS                                                                                       2FvYXJ5L2M2Y2NaOFF5VkczL095NDUrT0VxS0pldk53NUlQSHBzUnZoekhXblNUbHVzcEs2ekh1TVR1Q                                                                                       zRXSzNqU2ZtWmlqa21JbFc3UTNteko0QldDNzdQdkdmdDBMQzdCY3VOUTgxTXVpWGFUdFByNWNGUHltO                                                                                       UJQaXJvN2RCQzVwQmpxWENCaFlRWGRSa2QiLCJkYXRha2V5IjoiQVFJQkFIaUhXYVlUblJVV0NibnorN                                                                                       0x2TUcrQVB2VEh6SGxCVVE5RnFFbVYyNkJkd3dHYlJrV2s2Z1JudEJ4RXV1V29BbVBwQUFBQWZqQjhCZ                                                                                       2txaGtpRzl3MEJCd2FnYnpCdEFnRUFNR2dHQ1NxR1NJYjNEUUVIQVRBZUJnbGdoa2dCWlFNRUFTNHdFU                                                                                       VFNRkZOUFprTVZrcTBuTG5GREFnRVFnRHZOS3lPM04zME9LaTM4K1gzS1JHcmcvWGdRWm5sNXJwc3l1N                                                                                       ThXQ2JkMW5oTU5RWUF0b3pCaVh0ZXYwYU1OZ2h4ZG5ZbFRreFErRVl3Y1N3PT0iLCJ2ZXJzaW9uIjoiM                                                                                       iIsInR5cGUiOiJEQVRBX0tFWSIsImV4cGlyYXRpb24iOjE1NTE2NjE0NzB9 https://872855427276                                                                                       .dkr.ecr.ap-south-1.amazonaws.com
+  544  docker login -u AWS -p eyJwYXlsb2FkIjoia1B1cmhHQ1R0bGoybGp6YkM3UXNmZWxpSGc1ZW9Fb                                                                                       CtnWkJ4dmZzVkZmTi9WZm1sWnB0WWZaczVMWVcwSE5IQ0VpUm5aWng2R0pQVkxTbTVybWd6c3ZnT3FIV                                                                                       GUxZEIzRVRQdU5RbHM4MXRIYXIrSDBpSVNyU3RDNnk1Q1hWdzc1K2F0UVIwek5wVldLUzJ1QUl4Y2wxN                                                                                       E1oV05qN1o1SkRZSkFnS3Z2ZW5oT2pGbFMzTmlYUXVuTkZuMEVvNE1oZGoxM2NGTjMwYURqeno5VnhGU                                                                                       lhEeXBtcW1LZWRpSkxlTm1JZTZxZVorZkF1cmo0WDQzUGdHbmdHdzdXZnFIcUMxTXZjeGZGbklzYW04S                                                                                       GFqVEhWczZKYlk1ZXZ5SUdwWUorVCs0MlRBdjJkMGcwejNtY2QyNm5vUlp0OXdITnZtUG9idytkL3hne                                                                                       XZnMTFOWElmcUluOGw2NVNSNGhWb1RwcFMvMXV3clRxVEt1UmRZZGpvUlJ4QkViNnZjZWloOElWSlRBY                                                                                       y9hejE3bkUweUlqM1g3NnVwREgxOWhQYVZZQk5SbVZ1VTVETm1SbElCMjFXWDFYbTROdnRMMW9rZjBMV                                                                                       1BQV0VOdFA4ZDlPNG1FUFZlZEVBcG9lb3Q0cTRtYThJSWtOM1dJalEvekNxRGU3L2Rra29RbzRQWVE3Z                                                                                       jkxeTBmV3lxMk1RTUNIUDVuY2x6di9hdVNBTWZxMkY1VW43enBrSnM3K0Z6L29EVVdTQUxBWlVmV0xxW                                                                                       DFnbVBTUExxQXd5dEkyeU5aeWJqdVpVNUJORVhUSmYrMEJjTC9Ja1ZPd2lJT1Y1b2lOZ0VFLzRrZDdUR                                                                                       nNYMGZwOXRLc2R0c1FzaE1Kc1BQS05ueEsyVllTMm1FeHpWZ0xob01OUlBLZUM1NEUvMWhRRzM4OE4rY                                                                                       noyT2tQSjZuNWlsUVlFTi9PMGtRcCt6YTg1a2ZCbHBhd3JLN21lR2dCblJhRGN0RXlOdXdveXZXVG9NT                                                                                       Fk0dnZtTDhMUWtrc3dwQ0R3SnJSdEk0eXFudUNpZHN5NlkxM1M5QW5rRnhvemtpNkk1ZFRDR2plTlFWb                                                                                       TlXRkViR2JUUDZxNWRFbUtUMjNmMG1HZ0FEOXM3UE5BeHdLRzRuUjFCTnBYdUw1dXpYcUlQOExxWnZGb                                                                                       1FveHRySGZEZWlMTElmbWo4Wm0rNGQrSkdPcHVyN3lUU3pFbzJPRGl1M0wyNm1uaFBvcGZYaldWMHVRS                                                                                       2FvYXJ5L2M2Y2NaOFF5VkczL095NDUrT0VxS0pldk53NUlQSHBzUnZoekhXblNUbHVzcEs2ekh1TVR1Q                                                                                       zRXSzNqU2ZtWmlqa21JbFc3UTNteko0QldDNzdQdkdmdDBMQzdCY3VOUTgxTXVpWGFUdFByNWNGUHltO                                                                                       UJQaXJvN2RCQzVwQmpxWENCaFlRWGRSa2QiLCJkYXRha2V5IjoiQVFJQkFIaUhXYVlUblJVV0NibnorN                                                                                       0x2TUcrQVB2VEh6SGxCVVE5RnFFbVYyNkJkd3dHYlJrV2s2Z1JudEJ4RXV1V29BbVBwQUFBQWZqQjhCZ                                                                                       2txaGtpRzl3MEJCd2FnYnpCdEFnRUFNR2dHQ1NxR1NJYjNEUUVIQVRBZUJnbGdoa2dCWlFNRUFTNHdFU                                                                                       VFNRkZOUFprTVZrcTBuTG5GREFnRVFnRHZOS3lPM04zME9LaTM4K1gzS1JHcmcvWGdRWm5sNXJwc3l1N                                                                                       ThXQ2JkMW5oTU5RWUF0b3pCaVh0ZXYwYU1OZ2h4ZG5ZbFRreFErRVl3Y1N3PT0iLCJ2ZXJzaW9uIjoiM                                                                                       iIsInR5cGUiOiJEQVRBX0tFWSIsImV4cGlyYXRpb24iOjE1NTE2NjE0NzB9 https://87285542727.dkr.ecr.ap-south-1.amazonaws.com
+  545  docker login -u AWS -p eyJwYXlsb2FkIjoia1B1cmhHQ1R0bGoybGp6YkM3UXNmZWxpSGc1ZW9FbCtnWkJ4dmZzVkZmTi9WZm1sWnB0WWZaczVMWVcwSE5IQ0VpUm5aWng2R0pQVkxTbTVybWd6c3ZnT3FIVGUxZEIzRVRQdU5RbHM4MXRIYXIrSDBpSVNyU3RDNnk1Q1hWdzc1K2F0UVIwek5wVldLUzJ1QUl4Y2wxNE1oV05qN1o1SkRZSkFnS3Z2ZW5oT2pGbFMzTmlYUXVuTkZuMEVvNE1oZGoxM2NGTjMwYURqeno5VnhGUlhEeXBtcW1LZWRpSkxlTm1JZTZxZVorZkF1cmo0WDQzUGdHbmdHdzdXZnFIcUMxTXZjeGZGbklzYW04SGFqVEhWczZKYlk1ZXZ5SUdwWUorVCs0MlRBdjJkMGcwejNtY2QyNm5vUlp0OXdITnZtUG9idytkL3hneXZnMTFOWElmcUluOGw2NVNSNGhWb1RwcFMvMXV3clRxVEt1UmRZZGpvUlJ4QkViNnZjZWloOElWSlRBYy9hejE3bkUweUlqM1g3NnVwREgxOWhQYVZZQk5SbVZ1VTVETm1SbElCMjFXWDFYbTROdnRMMW9rZjBMV1BQV0VOdFA4ZDlPNG1FUFZlZEVBcG9lb3Q0cTRtYThJSWtOM1dJalEvekNxRGU3L2Rra29RbzRQWVE3ZjkxeTBmV3lxMk1RTUNIUDVuY2x6di9hdVNBTWZxMkY1VW43enBrSnM3K0Z6L29EVVdTQUxBWlVmV0xxWDFnbVBTUExxQXd5dEkyeU5aeWJqdVpVNUJORVhUSmYrMEJjTC9Ja1ZPd2lJT1Y1b2lOZ0VFLzRrZDdURnNYMGZwOXRLc2R0c1FzaE1Kc1BQS05ueEsyVllTMm1FeHpWZ0xob01OUlBLZUM1NEUvMWhRRzM4OE4rYnoyT2tQSjZuNWlsUVlFTi9PMGtRcCt6YTg1a2ZCbHBhd3JLN21lR2dCblJhRGN0RXlOdXdveXZXVG9NTFk0dnZtTDhMUWtrc3dwQ0R3SnJSdEk0eXFudUNpZHN5NlkxM1M5QW5rRnhvemtpNkk1ZFRDR2plTlFWbTlXRkViR2JUUDZxNWRFbUtUMjNmMG1HZ0FEOXM3UE5BeHdLRzRuUjFCTnBYdUw1dXpYcUlQOExxWnZGb1FveHRySGZEZWlMTElmbWo4Wm0rNGQrSkdPcHVyN3lUU3pFbzJPRGl1M0wyNm1uaFBvcGZYaldWMHVRS2FvYXJ5L2M2Y2NaOFF5VkczL095NDUrT0VxS0pldk53NUlQSHBzUnZoekhXblNUbHVzcEs2ekh1TVR1QzRXSzNqU2ZtWmlqa21JbFc3UTNteko0QldDNzdQdkdmdDBMQzdCY3VOUTgxTXVpWGFUdFByNWNGUHltOUJQaXJvN2RCQzVwQmpxWENCaFlRWGRSa2QiLCJkYXRha2V5IjoiQVFJQkFIaUhXYVlUblJVV0NibnorN0x2TUcrQVB2VEh6SGxCVVE5RnFFbVYyNkJkd3dHYlJrV2s2Z1JudEJ4RXV1V29BbVBwQUFBQWZqQjhCZ2txaGtpRzl3MEJCd2FnYnpCdEFnRUFNR2dHQ1NxR1NJYjNEUUVIQVRBZUJnbGdoa2dCWlFNRUFTNHdFUVFNRkZOUFprTVZrcTBuTG5GREFnRVFnRHZOS3lPM04zME9LaTM4K1gzS1JHcmcvWGdRWm5sNXJwc3l1NThXQ2JkMW5oTU5RWUF0b3pCaVh0ZXYwYU1OZ2h4ZG5ZbFRreFErRVl3Y1N3PT0iLCJ2ZXJzaW9uIjoiMiIsInR5cGUiOiJEQVRBX0tFWSIsImV4cGlyYXRpb24iOjE1NTE2NjE0NzB9 https://872855427276.dkr.ecr.ap-south-1.amazonaws.com
+  546  docker tag dockerfile:latest 872855427276.dkr.ecr.ap-south-1.amazonaws.com/exampletest
+  547  docker push  872855427276.dkr.ecr.ap-south-1.amazonaws.com/exampletest
+  548  clear
+  549  docker images
+  550  docker ps -a
+  551  docker run -d -p 8080:8080 dockerfile:latest
+  552  docker ps -a
+  553  docker exec -it 57ed1d07ad6a bash
+  554  cd ..
+  555  docker images
+  556  curl dockerfile
+  557  curl dockerfile:latest
+  558  docker ps -a
+  559  docker run -d -p 8080:8080 -p 9990:9990 dockerfile:latest
+  560  pwd
+  561  ls
+  562  cd examples
+  563  ls
+  564  cd ecommerce/
+  565  ls
+  566  vi pom.xml 
+  567  pwd
+  568  docker images
+  569  curl dockerfile:latest
+  570  docker ps -a
+  571  dockker start d0a5793635c1
+  572  docker start d0a5793635c1
+  573  docker start 57ed1d07ad6a
+  574  docker exec-ir 57ed1d07ad6a
+  575  docker exec-ir 57ed1d07ad6a bash
+  576  docker exec-it 57ed1d07ad6a bash
+  577  docker exec -it 57ed1d07ad6a bash
+  578  clear
+  579  docker ps -a
+  580  clear
+  581  docker run -it dockerfile
+  582  docker run -d dockerfile
+  583  docker run -it dockerfile
+  584  docker exec -it 57ed1d07ad6a bash
+  585  docker start 57ed1d07ad6a
+  586  docker exec -it 57ed1d07ad6a bash
+  587  exitexitsldkvexit
+  588  clear
+  589  ls
+  590  cd /opt
+  591  ls
+  592  cd examples
+  593  ls
+  594  cd ecommerce/
+  595  ls
+  596  vi dockerfile 
+  597  mvn package -Pdockerimage
+  598  docker images 
+  599  docker run -p 8080:8080 dockerfile:latest
+  600  clear
+  601  ls
+  602  cd /opt
+  603  ls
+  604  cd example
+  605  cd examples
+  606  ls
+  607  cd ecommerce/
+  608  ls
+  609  docker run -d -p 8080:8080 dockerfile
+  610  docker run -d -p 8080:8085 dockerfile
+  611  docker run -d -p 8085:8085 dockerfile
+  612  vi dockerfile 
+  613  vi dockerfile
+  614  docker build -t example .
+  615  vi dockerfile
+  616  docker build -t example .
+  617  docker images
+  618  docker ps -a
+  619  docker stop 1c83f6c47658
+  620  docker system prune -a
+  621  ls
+  622  docker images
+  623  docker build -t exampletest .
+  624  docker images
+  625  docker ps -a
+  626  sudo docker run -it exampletest
+  627  docker run -d -p 8085:8085 exampletest 
+  628  docker ps -a
+  629  docker exec -it 3b9582f5418f
+  630  docker exec -it 3b9582f5418f bash
+  631  docker run --name cond1 -d -v /var/log/prodlogs1:/opt/jboss/wildfly/standalone/log -p 8080:8080 -p 9990:9990 exampletest
+  632  docker ps -a
+  633  docker systge
+  634  docker system prune -a
+  635  clear
+  636  ld
+  637  ls
+  638  vi dockerfile 
+  639  ls
+  640  netstat -lnup
+  641  netstat -tlup
+  642  docker images
+  643  docker ps -a
+  644  docker stop 319bb8307a1a
+  645  vi pom.xml 
+  646  vi dockerfile 
+  647  docker build -t sampletest .
+  648  vi dockerfile 
+  649  docker build -t sampletest .
+  650  docker ps -a
+  651  docker start 319bb8307a1a
+  652  docker ps -a
+  653  vi dockerfile
+  654  docker stop 319bb8307a1a
+  655  docker ps -a
+  656  docker system prune -a
+  657  docker images
+  658  docker ps -a
+  659  clear
+  660  vi dockerfile
+  661  docker build -t samplet .
+  662  docker ps -a
+  663  docker images
+  664  docker run --name sample -p 8080:8080 -p 9990:9990 samplet 
+  665  cd /opt
+  666  ls
+  667  cd examples
+  668  ls
+  669  cd ecommerce/
+  670  ls
+  671  vi dockerfile 
+  672  docker run --name cond1 -d -v /var/log/prodlogs1:/opt/jboss/wildfly/standalone/log -p 8080:8080 -p 9990:9990 image
+  673  docker run --name cond1 -d -v /var/log/prodlogs1:/opt/jboss/wildfly/standalone/log -p 8080:8080 -p 9990:9990 samplet
+  674  docker image
+  675  docker ps -a
+  676  vi dockerfile 
+  677  docker run --name cond1 -d -v /var/log/prodlogs1:/opt/jboss/wildfly/standalone/log -p 8080:8080 -p 9990:9990 samplet
+  678  docker build -t examplet .
+  679  docker run --name cond1 -d -v /var/log/prodlogs1:/opt/jboss/wildfly/standalone/log -p 8080:8080 -p 9990:9990 examplet
+  680  docker run --name cond100 -d -v /var/log/prodlogs1:/opt/jboss/wildfly/standalone/log -p 8080:8080 -p 9990:9990 examplet
+  681  docker ps 0a
+  682  docker ps -a
+  683  docker stop bc044813217e
+  684  docker system prune -a
+  685  ls
+  686  docker images
+  687  docker build -t examplet .
+  688  docker images
+  689  docker ps -a
+  690  docker run --name cond100 -d -v /var/log/prodlogs1:/opt/jboss/wildfly/standalone/log -p 8080:8080 -p 9990:9990 examplet
+  691  docker ps -a
+  692  ls
+  693  mvn package -Pdcokerimage
+  694  mvn package -Pdockerimage
+  695  docker images
+  696  docker ps -a
+  697  docker run --name cond100 -d -v /var/log/prodlogs1:/opt/jboss/wildfly/standalone/log -p 8080:8080 -p 9990:9990 dockerfile
+  698  docker run --name cond1000 -d -v /var/log/prodlogs1:/opt/jboss/wildfly/standalone/log -p 8080:8080 -p 9990:9990 dockerfile
+  699  docker run --name cond1000 -d -v /var/log/prodlogs1:/opt/jboss/wildfly/standalone/log -p 8888:8888 -p 9990:9990 dockerfile
+  700  docker run --name cond10000 -d -v /var/log/prodlogs1:/opt/jboss/wildfly/standalone/log -p 8888:8888 -p 9990:9990 dockerfile
+  701  docker images 
+  702  vi dockerfile 
+  703  docker ps -a
+  704  docker stop f13f713a85d3
+  705  docker ssyem prune -a
+  706  docker system prune -a
+  707  docker ps 
+  708  docker images
+  709  clear
+  710  sudo docker service restart
+  711  sudo servioe docker restart
+  712  sudo servioe docker start
+  713  ls
+  714  docker info
+  715  service docker start
+  716  clear
+  717  service docker restart
+  718  ls
+  719  docker images 
+  720  mvn packae -Pdockerimage
+  721  mvn package -Pdockerimage
+  722  ls
+  723  cd target/
+  724  ls
+  725  cd ..
+  726  vi pom.xml 
+  727  cd ..
+  728  ls
+  729  cd ecommerce/
+  730  ls
+  731  rm -rf target/
+  732  mvn package -Pdockerimage
+  733  sudo docker service restart
+  734  mvn compile
+  735  mvn package -Pdockerimage
+  736  vi dockerfile 
+  737  ls
+  738  cd target/
+  739  ls
+  740  cd ..
+  741  ls
+  742  vi dockerfile 
+  743  mvn compile
+  744  mvn package -Pdockerimage
+  745  ls
+  746  docker images
+  747  docker run --name cond1 -d -v /var/log/prodlogs1:/opt/jboss/wildfly/standalone/log -p 8080:8080 -p 9990:9990 dockerfile
+  748  docker ps -a
+  749  docker run -d dockerfile
+  750  docker exex -it 8fa5834d4adc bash
+  751  docker exec -it 8fa5834d4adc bash
+  752  vi dockerfile 
+  753  mvn package -Pdockerimage
+  754  ls
+  755  cd /opt
+  756  ls
+  757  cd examples
+  758  ls
+  759  cd ecommerce/
+  760  ls
+  761  vi dockerfile 
+  762  docker images 
+  763  docker ps -a
+  764  docker stop 16c02a87d3bc
+  765  docker run --name cond1 -d -v /var/log/prodlogs1:/opt/jboss/wildfly/standalone/log -p 8080:8080 -p 9990:9990 dockerfile
+  766  docker run --name exam1 -d -v /var/log/prodlogs1:/opt/jboss/wildfly/standalone/log -p 8080:8080 -p 9990:9990 dockerfileexi
+  767  docker run --name exam1 -d -v /var/log/prodlogs1:/opt/jboss/wildfly/standalone/log -p 8080:8080 -p 9990:9990 dockerfilee
+  768  docker run --name exam1 -d -v /var/log/prodlogs1:/opt/jboss/wildfly/standalone/log -p 8080:8080 -p 9990:9990 dockerfile
+  769  docker ps -a
+  770  chmod 777 /opt/wildfly/standalone/log/server.log
+  771  ls
+  772  cd /opt
+  773  ls
+  774  cd examples
+  775  ls
+  776  cd cijobs
+  777  ls
+  778  java -jar agent.jar -jnlpUrl http://13.234.122.130:8080/computer/cijobs/slave-agent.jnlp -secret fff413f0dd6364c679470e340073f7d878c829fcd4e35963f792e5c45f199762 -workDir "/opt/examples/cijobs"
+  779  clear
+  780  ls
+  781  cd /opt
+  782  ls
+  783  cd examples
+  784  ls
+  785  cd ecommerce/
+  786  ls
+  787  vi dockerfile 
+  788  mvn package -Pdockerimage
+  789  sudo service docker start
+  790  mvn package -Pdockerimage
+  791  mvn package -Pdockerimage
+  792  docker images
+  793  docker system prune -a
+  794  clear
+  795  docker images
+  796  docker ps -a
+  797  docker stop  45f973b82830
+  798  docker images
+  799  docker system prune -a
+  800  docker images
+  801  clear
+  802  mvn package -Pdockerimage
+  803  docker images 
+  804  docker ps -a
+  805  docker run -d --name cond1000 -P 8080:8080 dockerfile
+  806  docker run --name cond1000 -p 8080:8080 dockerfile
+  807  cd /opt
+  808  ls
+  809  cd examples
+  810  ls
+  811  cd ecommerce
+  812  ls
+  813  vi dockerfile 
+  814  docker images
+  815  docker system prune -a 
+  816  docker ps -a
+  817  docker stop bd25eb2eab9e
+  818  docker system prune -a
+  819  docker images
+  820  clear
+  821  ls
+  822  mvn package -Pdockerimage 
+  823  docker iamesg 
+  824  docker images 
+  825  docker ps -a
+  826  docker run -d --name sample -p 8080:8080 -p 9990:9990 dockerfile
+  827  docker ps -a
+  828  docker exec -it 78c797889b4a bash
+  829  ls
+  830  vi dockerfile 
+  831  docker images
+  832  docker ps -a
+  833  docker stop 78c797889b4a
+  834  vi dockerfile
+  835  docker images
+  836  ls
+  837  docker system prune -a
+  838  docker images
+  839  clear
+  840  mvn package -Pdockerimage
+  841  docker images
+  842  docker ps -a
+  843  docker run -d --name sample100 -p 8080:8080 -p 9090
+  844  docker run -d --name sample100 -p 8080:8080 -p 9090:9090 dockerfile
+  845  vi dockerfile
+  846  docker run -d --name sample100 -p 8080:8080 -p 9090:9090 dockerfile
+  847  docker run -d --name sample1000 -p 8080:8080 -p 9090:9090 dockerfile
+  848  docker run -p 8080:8080 -p 9990:9990 -it jboss/wildfly /opt/jboss/wildfly/bin/standalone.sh -bmanagement 0.0.0.0
+  849  la
+  850  docker images
+  851  docker ps -a
+  852  docker system prune -a
+  853  docker images
+  854  lc
+  855  clear
+  856  vi dockerfile
+  857  docker build -t sample1000 .
+  858  docker imagwes
+  859  docker images 
+  860  docker ps -a
+  861  docker run -d --name image100 -p 8080:8080 -p 9990:9990 sample1000
+  862  ls
+  863  docker ps -a
+  864  ls
+  865  cd target/
+  866  ls
+  867  mvn package -Pdockerimage
+  868  cd ..
+  869  clear
+  870  ls
+  871  rm -rf target/
+  872  ls
+  873  vi pom.xml 
+  874  mvn compile
+  875  vi pom.xml 
+  876  mvn compile
+  877  ls
+  878  mvn package 
+  879  ls
+  880  cd target/
+  881  ls
+  882  cd ..
+  883  vi dockerfile 
+  884  docker ps -a
+  885  docker stop 065c851e9293
+  886  docker system prune -a
+  887  clear
+  888  docker images
+  889  vi pom.xml 
+  890  mvn package -P dockerimage
+  891  docker images
+  892  docker run -d --name example1000 -p 8080:8080 -p 9990:9990 dockerimage
+  893  docker ps -a
+  894  vi dockerfile 
+  895  docker exec -it 749526358a05 bash
+  896  docker run -d dockerimage
+  897  docker exec -it 749526358a05 bash
+  898  clear
+  899  vi dockerfile 
+  900  cd target/
+  901  ls
+  902  cd ..
+  903  vi dockerfile 
+  904  cp dockerfile target/
+  905  ls
+  906  cd target/
+  907  ls
+  908  vi dockerfile 
+  909  docker build --tag=jboss/wildfly-admin .
+  910  docker run -it jboss/wildfly-admin
+  911  docker images
+  912  docker ps -a
+  913  docker logs -f sample1000 
+  914  ls
+  915  docker run -d example1000
+  916  docker logs -f sample1000 
+  917  docker run -d --name sample100 -p 8080:8080 -p 9990:9990  example1000
+  918  docker logs -f sample1000 
+  919  docker logs -f sample100
+  920  ls
+  921  clear
+  922  ls
+  923  cd target/
+  924  ls
+  925  rm -rf dockerfile 
+  926  ls
+  927  cd ..
+  928  vi pom.xml 
+  929  cd target/
+  930  ls
+  931  cd ..
+  932  vi dockerfile 
+  933  docker images
+  934  docker system prune -a
+  935  ls
+  936  docker images
+  937  docker ps -a
+  938  clear
+  939  docker build -t example1000 .
+  940  docker ps -a
+  941  docker images
+  942  docker run  --name sample1000 -d example1000
+  943  docker ps -a
+  944  chmod 777 /opt/jboss/wildfly/ 
+  945  docker run  --name sample1000 -d example1000 bash
+  946  docker run  --name sample10000 -d example1000 bash
+  947  bash
+  948  ls
+  949  cd /opt
+  950  cd example
+  951  cd examples
+  952  ls
+  953  cd ecommerce/
+  954  ls
+  955  cd target/
+  956  ls
+  957  vi dockerfile 
+  958  docker images
+  959  docker ps -a
+  960  docker stop 373b3cdbde70
+  961  docker stop 749526358a05
+  962  clear
+  963  docker system prune -a
+  964  docker images
+  965  docker ps -a
+  966  clear
+  967  vi dockerfile 
+  968  mvn package -Pdockerimage
+  969  cd ..
+  970  mvn package -Pdockerimage
+  971  ls
+  972  docker images
+  973  docker ps -a
+  974  docker run --name sample1000 -d -p 8080:8080 dockerimage /bin/bash
+  975  docker logs -f sample1000
+  976  ls
+  977  vi dockerfile 
+  978  docker ps -a
+  979  docker start 96c6c4393737
+  980  docker logs -f sample1000
+  981  docker start 96c6c4393737
+  982  docker ps -a
+  983  cd /bin/bash
+  984  bash
+  985  ls
+  986  cd /opt
+  987  ls
+  988  cd examples
+  989  ls
+  990  cd cijobs
+  991  ls
+  992  java -jar agent.jar -jnlpUrl http://13.234.122.130:8080/computer/cijobs/slave-agent.jnlp -secret fff413f0dd6364c679470e340073f7d878c829fcd4e35963f792e5c45f199762 -workDir "/opt/examples/cijobs"
+  993  clear
+  994  cd /opt
+  995  ls
+  996  cd examples
+  997  ls
+  998  cd ecommerce/
+  999  ls
+ 1000  cd ..
+ 1001  ls
+ 1002  cd cijobs
+ 1003  ls
+ 1004  history
+ 1005   java -jar agent.jar -jnlpUrl http://13.234.122.130:8080/computer/cijobs/slave-agent.jnlp -secret fff413f0dd6364c679470e340073f7d878c829fcd4e35963f792e5c45f199762 -workDir "/opt/examples/cijobs"
+ 1006  cd ..
+ 1007  ls
+ 1008  cd ecommerce/
+ 1009  ls
+ 1010  vi dockerfile 
+ 1011  cat dockerfile
+ 1012  vi dockerfile 
+ 1013  mvn package -Pdockerimage
+ 1014  docker images
+ 1015  docker ps -a
+ 1016  docker start 7c581d1d7dd1
+ 1017  docker exec -it 7c581d1d7dd1 bash
+ 1018  docker run -d --name sample100 -p 8080:8080 -p 9990:9990 dockerfile
+ 1019  ls
+ 1020  clear
+ 1021  docker ps
+ 1022  docker ps -a
+ 1023  docker start dockerfile
+ 1024  docker start sample100
+ 1025  vi dockerfile 
+ 1026  :q!
+ 1027  vi dockerfile 
+ 1028  docker imges
+ 1029  docker images
+ 1030  docker system prune -a
+ 1031  docker images
+ 1032  docker ps
+ 1033  ls
+ 1034  clear
+ 1035  docker build -t example .
+ 1036  docker images
+ 1037  history
+ 1038  history > history.txt

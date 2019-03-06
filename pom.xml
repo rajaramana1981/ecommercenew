@@ -1,0 +1,131 @@
+  <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+
+ <groupId>example</groupId>
+  <artifactId>ecommerce</artifactId>
+
+  <version>100</version>
+  <packaging>war</packaging>
+
+  <name>example Maven Webapp</name>
+  <!-- FIXME change it to the project's website -->
+  <url>http://www.example.com</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+<jacoco.version>0.7.5.201505241946</jacoco.version>
+                <junit.version>4.12</junit.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+
+  </dependency>
+
+<dependency>
+<groupId>org.sonarsource.scanner.maven</groupId>
+<artifactId>sonar-maven-plugin</artifactId>
+<version>3.2</version>
+</dependency>
+  </dependencies>
+
+<profiles>
+<profile>
+        <id>dockerimage</id>
+         <build>
+          <plugins>
+           <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>1.6.0</version>
+             <executions>
+              <execution>
+               <phase>package</phase>
+               <goals>
+                <goal>exec</goal>
+                                  </goals>
+                                        <configuration>
+                                  <executable>docker</executable>
+                                   <arguments>
+                                        <argument>build</argument>
+                                        <argument>-t</argument>
+                                        <argument>dockerimage</argument>
+                                        <argument>.</argument>
+                                   </arguments>
+                                </configuration>
+                        </execution>
+                                                </executions>
+                        </plugin>
+             </plugins>
+      </build>
+    </profile>
+
+
+
+
+<profile>
+<id>codecoverage</id>
+<build>
+<plugins>
+<plugin>
+    <groupId>org.jacoco</groupId>
+    <artifactId>jacoco-maven-plugin</artifactId>
+    <version>0.6.3.201306030806</version>
+    <executions>
+      <!-- prepare agent for measuring integration tests -->
+      <execution>
+        <id>prepare-integration-tests</id>
+        <phase>pre-integration-test</phase>
+        <goals>
+          <goal>prepare-agent</goal>
+        </goals>
+        <configuration>
+          <destFile>${basedir}/target/coverage-reports/jacoco-unit.exec</destFile>
+        </configuration>
+      </execution>
+      <execution>
+        <id>jacoco-site</id>
+        <phase>post-integration-test</phase>
+        <goals>
+          <goal>report</goal>
+        </goals>
+        <configuration>
+          <dataFile>${basedir}/target/coverage-reports/jacoco-unit.exec</dataFile>
+        </configuration>
+      </execution>
+    </executions>
+  </plugin>
+ </plugins>
+</build>
+</profile>
+
+<profile>
+<id>sonar</id>
+<activation>
+<activeByDefault>true</activeByDefault>
+</activation>
+<properties>
+<!-- Optional URL to server. Default value is http://localhost:9000 -->
+<sonar.host.url>
+http://13.233.179.105:9000/example
+</sonar.host.url>
+</properties>
+</profile>
+
+
+</profiles>
+
+
+
+
+
+
+</project>
