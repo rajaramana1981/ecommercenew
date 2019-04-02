@@ -68,9 +68,6 @@
       </build>
     </profile>
 
-
-
-
 <profile>
 <id>codecoverage</id>
 <build>
@@ -115,7 +112,7 @@
 <properties>
 <!-- Optional URL to server. Default value is http://localhost:9000 -->
 <sonar.host.url>
-http://13.233.179.105:9000/example
+http://13.234.35.164:9000/example
 </sonar.host.url>
 </properties>
 </profile>
